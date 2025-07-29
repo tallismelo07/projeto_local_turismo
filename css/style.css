@@ -21,6 +21,7 @@
 * {
   width: 1280px;
   box-sizing: border-box;
+  font-family: var(--font);
 }
 
 body {
@@ -51,6 +52,7 @@ body {
 
 .description_image {  
   margin-left: 160px;
+  margin-bottom: 40px;
 }
 
 .imagem {
@@ -59,3 +61,15 @@ body {
   border-radius: 28px;
 }
 
+.description {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+  left: 205px;
+  color: var(--text-secondary);
+}
+
+.content_list {
+  
+}
