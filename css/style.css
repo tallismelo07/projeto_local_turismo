@@ -2,6 +2,8 @@
 
 
 :root {
+--font: 'Open Sans', sans-serif;
+
   --background-default: #f5f4f0;
   --border-primary: #d9d9d9;
 
@@ -18,8 +20,42 @@
 
 * {
   width: 1280px;
+  box-sizing: border-box;
 }
 
 body {
   height: 3279px;
 }
+
+.title_page {
+  margin-top: 176px;
+  margin-left: 160px;
+  margin-bottom: 80px;
+}
+
+.title_page p {
+  color: var(--text-headline);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: var(--font);
+  margin-bottom: 0;
+}
+
+.title_page h1 {
+  font-family: var(--font);
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.description_image {  
+  margin-left: 160px;
+}
+
+.imagem {
+  width: 1700px;
+  height: 900px;
+  border-radius: 28px;
+}
+
