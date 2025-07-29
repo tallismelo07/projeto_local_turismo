@@ -34,14 +34,6 @@ body {
   margin-bottom: 80px;
 }
 
-.title_page p {
-  color: var(--text-headline);
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: var(--font);
-  margin-bottom: 0;
-}
 
 .title_page h1 {
   font-family: var(--font);
@@ -59,6 +51,7 @@ body {
   width: 1700px;
   height: 900px;
   border-radius: 28px;
+  
 }
 
 .description {
@@ -71,5 +64,85 @@ body {
 }
 
 .content_list {
-  
+  margin-left: 160px;
+  margin-bottom: 40px;
+}
+
+.content_list hr {
+  margin-bottom: 64px;
+  width: 1700px;
+  border: 1px solid var(--border-primary);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.text_list {
+  margin-bottom: 64px;
+}
+
+.headline {
+  color: var(--text-headline);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: var(--font);
+  margin-bottom: 0;
+}
+
+.text_list h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.paragrafo {
+  color: var(--text-secondary);
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.card_travel {
+  width: 1700px;
+  height: 550px;
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+.content_card h3{
+  font-size: 28px;
+  color: var(--text-primary);
+}
+
+.title_h3::marker {
+  font-size: 28px;
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.list_card {
+  margin-bottom: 48px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.historia span{
+  font-size: 16px;
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+
+.familias span{
+  font-size: 16px;
+  color: var(--accent-pink);
+  font-weight: 600;
+}
+
+.orcamento span{
+  font-size: 16px;
+  color: var(--accente-orange);
+  font-weight: 600;
 }
