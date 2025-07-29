@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+
+  --text-primary: #1B1B1B;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+
+  --accent-blue: #0c51a7;
+  --accente-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+}
+
 * {
   width: 1280px;
 }
