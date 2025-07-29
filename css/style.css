@@ -25,7 +25,7 @@
 }
 
 body {
-  height: 3279px;
+  height: 4250px;
 }
 
 .title_page {
@@ -98,8 +98,17 @@ body {
 
 .paragrafo {
   color: var(--text-secondary);
-  font-weight: 300;
+  font-weight: auto;
   font-size: 16px;
+}
+
+.paragrafoFinal {
+  color: var(--text-secondary);
+  font-weight: auto;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  left: 205px;
 }
 
 .card_travel {
@@ -145,4 +154,8 @@ body {
   font-size: 16px;
   color: var(--accente-orange);
   font-weight: 600;
+}
+
+.list {
+  margin-bottom: 80px;
 }
